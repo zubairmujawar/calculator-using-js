@@ -6,6 +6,7 @@ Array.from(Buttons).forEach((button) => {
     if (e.target.innerHTML == "=") {
       string = eval(string);
       document.getElementById("input").value = string;
+      history.innerHTML = `${(input).value} = ${string}`;
     } else if (e.target.innerHTML == "C") {
       string = "";
       document.getElementById("input").value = string;
@@ -18,3 +19,4 @@ Array.from(Buttons).forEach((button) => {
     }
   });
 });
+
