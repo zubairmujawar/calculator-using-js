@@ -48,3 +48,9 @@ input[type="text"] {
   background-color: #9b59b6;
   color: white;
 }
+/* ------------- For mobile view ------------------ */
+@media (max-width: 768px) {
+  .container{
+    margin-top: 7rem;
+  }
+}
