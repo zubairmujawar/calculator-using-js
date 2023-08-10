@@ -7,7 +7,6 @@ audio1.id = "audio";
 audio2.id = "audio";
 audio2.src = "./click.mp3";
 audio1.src = "./metal-new.mp3";
-// audio2.src = "./metal-new.mp3";
 Array.from(Buttons).forEach((button) => {
   button.addEventListener("click", (e) => {
     if (e.target.innerHTML == "=") {
