@@ -1,3 +1,4 @@
 live on : https://cal-js-z956945.netlify.app/
-Calculator using javascript
+I create a simple Calculator using javascript.
+please comment and give your feedback 🙏
 
